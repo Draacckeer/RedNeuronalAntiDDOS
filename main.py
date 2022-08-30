@@ -258,3 +258,6 @@ print(r2_value)
 
 print(confusion_matrix(y_test_udplag, y_pred_udplag.round()))
 
+import joblib
+joblib.dump(model, 'model.pkl')
+
